@@ -3,10 +3,25 @@ body {
     margin: 0;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 3.5%;
+}
+
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 3em;
 }
 
 #page-logo a {
