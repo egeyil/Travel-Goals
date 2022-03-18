@@ -28,16 +28,6 @@ header li {
     margin-left: 3em;
 }
 
-#page-logo a {
-    padding: 10px;
-    font-family: "Oleo Script", sans-serif;
-    color: rgb(245, 243, 160);
-    font-size: 50px;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
-}
-
 header a {
     color: rgb(255, 251, 0);
     text-decoration: none;
@@ -50,4 +40,18 @@ header a:hover {
     color: rgb(77, 77, 77);
     background-color: rgb(255, 251, 0);
     border-radius: 8px;
+}
+
+#page-logo a {
+    padding: 10px;
+    font-family: "Oleo Script", sans-serif;
+    color: rgb(245, 243, 160);
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+#page-logo a:hover {
+    color: rgb(127, 192, 218);
 }
