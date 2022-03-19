@@ -50,12 +50,13 @@
 }
 
 #highlights {
+    padding: 2em;
     text-align: center;
     text-transform: uppercase;
+    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(185, 250, 147));
 }
 
 #highlights h2 {
-    margin: 1em 0;
     font-size: 40px;
     color: rgb(59, 65, 64);
 }

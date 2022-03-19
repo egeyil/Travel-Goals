@@ -55,3 +55,24 @@ header a:hover {
 #page-logo a:hover {
     color: rgb(127, 192, 218);
 }
+
+footer {
+    background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    gap: 10em;
+}
+
+footer li {
+    width: 5em;
+    height: 5em;
+}
+
+footer img {
+    width: 100%;
+    height: 100%;
+}
